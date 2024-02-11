@@ -3,10 +3,13 @@
 <head> 
     <meta charset="UTF-8"> 
     <title>My Website - About</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/
+ app.css') }}" /> 
 </head> 
 <body> 
     <h1>Andrew Freckleton</h1> 
     <p>I am a 21 years old student at the University of the West Indies.I'm a second year student who majors in Software Engineering<br>
     Outside of school I a professional Cricket player for St.Catherine where I was raised.</p> 
+    <img src="{{ url_for('static', filename='Cricket_pitch.jpeg')}}"/>
 </body> 
 </html>
